@@ -1,22 +1,39 @@
-# LeetCode SQL Solutions
+# 🗂️ LeetCode SQL Solutions
 
-This repository contains my solutions to selected LeetCode SQL problems.  
-Each file includes the SQL query I wrote and sometimes notes about the approach.
+This repository contains my SQL solutions to selected [LeetCode Database problems](https://leetcode.com/problemset/database/).  
+Each problem includes the query and a short explanation in the [`docs/notes`](./docs/notes) folder.
 
-## 📂 Problems Covered
+---
 
-- **#175 Combine Two Tables**  
-  - Practiced basic `JOIN` between two tables.  
-  - Learned how to merge employee and department information.
+## 📖 Solved Problems
 
-- **#176 Second Highest Salary**  
-  - Solved using `DENSE_RANK()`.  
-  - Also explored alternative solutions with subqueries and `MAX()`.
+- [#175 Combine Two Tables](docs/notes/175_combine_two_tables.md)  
+  - Practiced `LEFT JOIN` to combine Person and Address tables.  
+
+- [#176 Second Highest Salary](docs/notes/176_second_highest_salary.md)  
+  - Used `DENSE_RANK()` + filter to return the second highest salary.  
+
+---
+
+## 📝 Folder Structure
+```
+/docs
+/notes ← Problem-by-problem SQL + explanation
+/README.md
+```
+
+--- 
+## 🚀 Progress
+
+- ✅ 2 problems solved (Sep 2025)  
+- 🎯 Target: 20 SQL problems by end of September 2025  
+- 🔄 Will keep updating weekly  
+
+---
 
 ## 🛠 Tech Stack
-- SQL (MySQL on LeetCode)
-- GitHub for version control
 
-## 📈 Progress
-I will keep updating this repository as I solve more SQL problems.  
-Target: 20 problems in September 2025 🚀
+- SQL (MySQL on LeetCode)  
+- GitHub for version control & documentation  
+
+---
