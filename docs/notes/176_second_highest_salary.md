@@ -2,13 +2,9 @@
 
 🔗 [문제 링크](https://leetcode.com/problems/second-highest-salary/)
 
----
-
 ## 📜 Problem Description
 Write a SQL query to get the second highest salary from the Employee table.  
 If there is no second highest salary, return `NULL`.
-
----
 
 ## 💻 SQL Solution
 ```sql

@@ -2,14 +2,10 @@
 
 🔗 [문제 링크](https://leetcode.com/problems/combine-two-tables/)
 
----
-
 ## 📜 Problem Description
 Write a SQL query to combine `Person` and `Address` tables.  
 Return FirstName, LastName, City, and State.  
 If a person has no address, still include them.
-
----
 
 ## 💻 SQL Solution
 ```sql
